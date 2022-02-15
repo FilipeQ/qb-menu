@@ -78,13 +78,13 @@ end)
 
 -- Command and Keymapping
 
-RegisterCommand('+playerfocus', function()
-    if headerShown then
-        SetNuiFocus(true, true)
-    end
-end)
+-- RegisterCommand('+playerfocus', function()
+--     if headerShown then
+--         SetNuiFocus(true, true)
+--     end
+-- end)
 
-RegisterKeyMapping('+playerFocus', 'Give Menu Focus', 'keyboard', 'LMENU')
+-- RegisterKeyMapping('+playerFocus', 'Give Menu Focus', 'keyboard', 'LMENU')
 
 -- Exports
 
